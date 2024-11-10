@@ -70,3 +70,6 @@ I had a problem running streamlit so I needed to use this command instead of onl
 ```
 python -m streamlit run main.py
 ```
+
+## Docker
+Building a dockefile out of torch is really expensive in storage terms. That's why in the application [dockerfile](./application/Dockerfile) I have setted up some tricks in order to reduce docker size like the --no-cache-dir and the retrieval of only cpu wheel.
