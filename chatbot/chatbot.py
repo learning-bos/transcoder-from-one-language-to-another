@@ -13,7 +13,6 @@ if prompt := st.chat_input("What is up?"):
     st.session_state.messages.append({"role": "user", "content": prompt})
     with st.chat_message("user"):
         st.markdown(prompt)
-
     with st.chat_message("assistant"):
         response = st.session_state.chain.invoke(prompt).content
         st.markdown(response)
