@@ -57,3 +57,9 @@ Have a combobox where the user select the output language.
 Perform the translation.
 It should contain also the instruction in how to run the program if it needs some particular configurations.
 The final result doesnt need to be modifiable.
+
+## Run streamlit
+I had a problem running streamlit so I needed to use this command instead of only streamlit
+```
+python -m streamlit run main.py
+```
