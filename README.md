@@ -22,7 +22,7 @@ conda create -n transcoder
 ```
 Fresh start
 ```
-pip freeze > req.txt & pip uninstall -r req.t
+pip freeze > req.txt & pip uninstall -r req.txt & rm req.txt
 ```
 Python version = 3.12.4
 
