@@ -50,6 +50,13 @@ INFOS
 | **Name**                  | LLAMA 2 COMMUNITY LICENSE AGREEMENT|
 | **Version Release Date**  | July 18, 2023                     |
 
+### Codellama usage
+You should have ollama already installed. We are using ollama version 0.3.14 for windows.
+After installation open a terminal pull codellama:13b
+```
+ollama pull codellama:13b
+```
+
 ## MVP
 Create a frontend page that takes in a single file.
 Evaluate based on the file what is the actual language used.
